@@ -1,0 +1,168 @@
+/** {
+	border: 2px solid red;
+}
+*/
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+body {
+    background-image: url("../images/concrete-texture.png");
+    background-repeat: repeat;
+    margin: 0%;
+    z-index: 0;
+    padding-bottom: 70px;
+}
+
+/* HEADER/NAV SECTION */
+.navbar-text {
+	font-size: 1.85em;
+	margin: 0!important;
+	font-family: 'Georgia', Times, Times New Roman, serif!important;
+	font-weight: bold!important;
+	color: #ffffff!important;
+	padding: 6px;
+	background-color: #4aaaa5;
+	
+	width: 110%;
+	text-align: center;
+}
+
+/* CONNECT SECTION*/
+.connect {
+	width: 70%;
+	display: block;
+	float: left;
+	padding: 1%;
+	text-align: center;
+	background-color: #ffffff !important;
+	border: 1px solid #cccccc;
+	color: #4aaaa5;
+	
+	margin-top: 2%;
+	padding-bottom: 5%
+}
+
+.connect h3 {
+	color: #4aaaa5;
+	font-weight: bold;
+	border-bottom: 2px solid #cccccc;
+	padding-bottom: 15px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.connect a {
+	padding: 1%;
+}
+
+/* MAIN CONTENT SECTION*/
+.main-content h2 {
+	color: #4aaaa5;
+	font-weight: bold;
+	border-bottom: 2px solid #cccccc;
+	padding-bottom: 15px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+.main-content {
+	background-color: #ffffff;
+	float: left;
+	display: block;
+	width: 95%;
+	margin-left: 4%;
+	color: #666666;
+	letter-spacing: 2px;
+	border: 1px solid #cccccc;
+	margin-bottom: 5%;
+	padding-left: 2%;
+	padding-right: 2%;	
+	margin-top: 2%
+}
+
+.main-content img {
+	padding-right: 15px;
+	padding-bottom: 10px;
+}
+
+/* FORM SECTION */
+.form {
+	background-color: #ffffff;
+	float: left;
+	display: block;
+	width: 80%;
+	margin-left: 10%;
+	border: 1px solid #cccccc;
+	padding: 2%;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin-bottom: 5%;
+	margin-top: 2%
+}
+
+.form h2 {
+	color: #4aaaa5;
+	font-weight: bold;
+	border-bottom: 2px solid #cccccc;
+	padding-bottom: 15px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+/* PORTFOLIO SECTION */
+.table {
+	margin-left: 4%;
+	margin-top: 2%;
+}
+
+.thumbnail h3 {
+	text-align: center;
+	background-color: #4aaaa5;
+	margin: 0!important;
+	width: 250px;
+	position: absolute;
+	bottom: 20%;
+	margin-left: 12px !important;
+}
+
+/* FOOTER SECTION */
+.footer-block {
+    bottom: 0;
+    margin-bottom: 0;
+    width: 100%;
+    position: absolute;
+    height: 70px;
+    background-color: #666666;
+	display: block;
+	clear: left;
+	text-align: center;
+	border-top: solid;
+	border-top-color: #4aaaa5;
+	border-top-width: 10px;
+	font-size: 11px;
+	vertical-align: -50%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	color: #ececec;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+/* Extra small devices (phones, less than 768px) */
+/* No media query since this is the default in Bootstrap */
+@media only screen and (max-width: 640px) {
+.connect {
+	margin-left: 10%;
+}
+
+.main-content {
+	margin-left: 10%;
+	width: 80%
+}
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: @screen-xs-min) { ... }
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: @screen-md-min) { ... }
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: @screen-lg-min) { ... }
